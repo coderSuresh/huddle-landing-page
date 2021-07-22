@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    background-image: url('images/bg-desktop.svg');
+    width: 100%;
+    height: 100vh;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color:hsl(257, 40%, 49%);
+    background-position: center;
+    overflow: auto;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+}
+
+.container {
+    margin: 40px 5%;    
+}
+
+.logo {
+    width: 200px;
+}
+
+.body {
+    display: flex;
+}
+
+.body img {
+    width: 50%;
+    margin-top: 70px;
+}
+
+.texts {
+    margin: 90px 0 0 40px;
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.desc {
+    opacity: 0.8;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.btn {
+    background-color: hsl(0, 0%, 100%);
+    width: fit-content;
+    padding: 7px 40px;
+    color: hsl(257, 40%, 49%);
+    border-radius: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.icons {
+    float: right;
+}
+
+.i {
+    cursor: pointer;
+}
+
+@media (max-width: 1190px) {
+    .body img {
+        width: 40%;
+    }
+
+    .icons {
+        padding-bottom: 40px;
+    }
+}
+
+
+@media (max-width: 990px) {
+    .body img {
+        width: 40%;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+    .desc {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 925px) {
+    .body img {
+        width: 40%;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+    .desc {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url('images/bg-mobile.svg');
+        background-position: 0 0;
+    }
+    .body {
+        flex-direction: column;
+    }
+    .body img {
+        width: 90%;
+        margin: 50px auto 0;
+    }
+
+    .logo {
+       width: 150px;
+    }
+
+    .texts {
+        margin: 50px 10px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 1.43rem; /*23px*/
+        margin: auto;
+        padding: 0;
+    }
+
+    .desc {
+        font-size: 13px;
+    }
+
+    .btn {
+        margin: auto;
+    }
+
+    .icons {
+        width: fit-content;
+        margin: auto;
+        float: none;
+    }
+
+}
