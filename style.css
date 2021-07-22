@@ -59,15 +59,22 @@ p {
     color: hsl(257, 40%, 49%);
     border-radius: 20px;
     font-weight: 400;
-    cursor: pointer;
 }
 
 .icons {
     float: right;
 }
 
-.i {
+.btn, .i{
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+i:hover, .i:hover {
+    color: hsl(300, 69%, 71%);
 }
 
 @media (max-width: 1190px) {
