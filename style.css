@@ -4,7 +4,7 @@ body {
     background-image: url('images/bg-desktop.svg');
     width: 100%;
     height: 100vh;
-    background-size: cover;
+    background-size: cover
     background-repeat: no-repeat;
     background-color:hsl(257, 40%, 49%);
     background-position: center;
