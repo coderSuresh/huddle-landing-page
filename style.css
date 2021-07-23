@@ -117,6 +117,7 @@ i:hover, .i:hover {
 @media (max-width: 768px) {
     body {
         background-image: url('images/bg-mobile.svg');
+        background-size: cover;
         background-position: 0 0;
     }
     .body {
@@ -156,4 +157,11 @@ i:hover, .i:hover {
         float: none;
     }
 
+}
+
+@media (max-width: 648px) {
+    body {
+        background-size: contain;
+        background-position: 0 0;
+    }
 }
